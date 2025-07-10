@@ -47,4 +47,4 @@ bash npx intlayer mcp --init
 
 Or handled automatically on first run. 
 
---- Made with ❤️ by [@melihcanndemir](https://github.com/melihcanndemir)
+# Made with ❤️ by [@melihcanndemir](https://github.com/melihcanndemir)
