@@ -1,4 +1,21 @@
-$basePath = "C:\Users\melih\AppData\Local\nvm\v20.18.1\node_modules\@intlayer\mcp\node_modules\@intlayer\docs\legal"
+# intlayer-fix.ps1
+# Dynamically determine basePath based on user home, nvm, and Node.js version
+
+# Get user home directory
+$userHome = [Environment]::GetFolderPath('UserProfile')
+
+# Get current Node.js version (e.g., v20.18.1)
+$nodeVersion = & node -p "process.version"
+$nodeVersion = $nodeVersion.Trim()
+
+# Build nvm directory path
+if ($IsWindows) {
+    $nvmDir = Join-Path $userHome "AppData\Local\nvm\$nodeVersion"
+    $basePath = Join-Path $nvmDir "node_modules\@intlayer\mcp\node_modules\@intlayer\docs\legal"
+} else {
+    $nvmDir = "$userHome/.nvm/versions/node/$nodeVersion"
+    $basePath = "$nvmDir/lib/node_modules/@intlayer/mcp/node_modules/@intlayer/docs/legal"
+}
 
 $languages = @(
     "en", "en-GB", "en-US", "en-AU", "en-CA", "en-NZ",
