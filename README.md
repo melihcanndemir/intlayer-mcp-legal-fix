@@ -1,7 +1,7 @@
 # 🛠️ Intlayer MCP Legal Placeholder Generator
 
-Intlayer - Modern internationalization (multi-language support, official GitHub repo)
 
+- [Intlayer](https://github.com/aymericzip/intlayer) - Modern internationalization (multi-language support, [official GitHub repo](https://github.com/aymericzip/intlayer))
 
 This script is a workaround for a known issue when running `npx intlayer mcp`, where the CLI fails due to missing legal markdown files in locale directories.
 
