@@ -27,7 +27,14 @@ C:\Users<your-user>\AppData\Local\nvm\v20.18.1\nodemodules@intlayer\mcp\nodemodu
 
 > You can change `$basePath` in the script to match your environment.
 >
-> ## 📄 Files Created For each locale: - `privacy_notice.md` - `terms_of_service.md` - `cookie_policy.md` - `legal_disclaimer.md` Each file contains a simple placeholder like:
+> ## 📄 Files Created For each locale:
+>
+> - `privacy_notice.md`
+> - `terms_of_service.md`
+> - `cookie_policy.md`
+> - `legal_disclaimer.md`
+
+> Each file contains a simple placeholder like:
 
 Dummy privacy_notice.md
 This is a placeholder for fr-CA.
