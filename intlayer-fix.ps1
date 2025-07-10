@@ -1,7 +1,5 @@
-# Hedef dizin
 $basePath = "C:\Users\melih\AppData\Local\nvm\v20.18.1\node_modules\@intlayer\mcp\node_modules\@intlayer\docs\legal"
 
-# Diller ve locale varyantları (gerekirse ekleyebilirsin)
 $languages = @(
     "en", "en-GB", "en-US", "en-AU", "en-CA", "en-NZ",
     "fr", "fr-CA", "fr-BE", "fr-CH",
@@ -12,7 +10,6 @@ $languages = @(
     "ar", "ru", "tr", "it", "ja", "ko", "pl", "nl", "sv", "fi", "no", "da", "cs", "el", "he", "id", "ms", "th", "vi", "uk", "ro", "hu", "sk", "bg", "hr", "lt", "lv", "et", "sl", "sr", "ca", "eu", "gl", "mt", "is", "ga", "sq", "bs", "mk", "af", "sw", "zu", "xh", "st", "tn", "ts", "ss", "ve", "nr", "hi"
 )
 
-# Legal dosya isimleri (gerekirse ekleyebilirsin)
 $legalFiles = @(
     "privacy_notice.md",
     "terms_of_service.md",
