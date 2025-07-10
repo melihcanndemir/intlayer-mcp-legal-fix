@@ -45,13 +45,6 @@ This is a placeholder for fr-CA.
 2. Run the script
 3. Start MCP again:
 
-bash npx intlayer mcp
-
-## 💡 Why This Exists Until the CLI handles missing legal files gracefully or provides a `--init` option, this script ensures MCP can run without crashing. 
-
-## 📬 Suggestion to Intlayer This logic could be integrated into the CLI as:
-bash npx intlayer mcp --init
-
-Or handled automatically on first run. 
+> npx @intlayer/mcp
 
 ## Made with ❤️ by [@melihcanndemir](https://github.com/melihcanndemir)
