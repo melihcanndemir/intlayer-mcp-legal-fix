@@ -36,7 +36,7 @@ This is a placeholder for fr-CA.
 
 1. Open PowerShell
 2. Run the script
-3. 3. Start MCP again:
+3. Start MCP again:
 
 bash npx intlayer mcp
 
