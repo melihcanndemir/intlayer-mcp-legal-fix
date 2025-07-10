@@ -4,7 +4,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import os from "os";
 
-// __dirname tanımı (ESM için)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
