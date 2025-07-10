@@ -22,15 +22,26 @@ By default, the script targets:
 
 C:\Users<your-user>\AppData\Local\nvm\v20.18.1\nodemodules@intlayer\mcp\nodemodules@intlayer\docs\legal
 
-> You can change `$basePath` in the script to match your environment. ## 📄 Files Created For each locale: - `privacy_notice.md` - `terms_of_service.md` - `cookie_policy.md` - `legal_disclaimer.md` Each file contains a simple placeholder like:
+> You can change `$basePath` in the script to match your environment.
+>
+> ## 📄 Files Created For each locale: - `privacy_notice.md` - `terms_of_service.md` - `cookie_policy.md` - `legal_disclaimer.md` Each file contains a simple placeholder like:
 
 Dummy privacy_notice.md
 This is a placeholder for fr-CA.
 
-## ▶️ How to Use 1. Open PowerShell 2. Run the script 3. Start MCP again:
+## ▶️ How to Use 
+
+1. Open PowerShell
+2. Run the script
+3. 3. Start MCP again:
+
 bash npx intlayer mcp
 
-## 💡 Why This Exists Until the CLI handles missing legal files gracefully or provides a `--init` option, this script ensures MCP can run without crashing. ## 📬 Suggestion to Intlayer This logic could be integrated into the CLI as:
+## 💡 Why This Exists Until the CLI handles missing legal files gracefully or provides a `--init` option, this script ensures MCP can run without crashing. 
+
+## 📬 Suggestion to Intlayer This logic could be integrated into the CLI as:
 bash npx intlayer mcp --init
 
-Or handled automatically on first run. --- Made with ❤️ by [@melihcanndemir](https://github.com/melihcanndemir)
+Or handled automatically on first run. 
+
+--- Made with ❤️ by [@melihcanndemir](https://github.com/melihcanndemir)
